@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "KnobControl"
+  s.name         = "QuaxoDecoder"
 s.version      = "1.0.0"
-s.summary      = "A knob control like the UISlider, but in a circular form."
-s.description  = "The knob control is a completely customizable widget that can be used in any iOS app. It also plays a little victory fanfare."
-s.homepage     = "http://raywenderlich.com"
+s.summary      = ""
+s.description  = ""
+s.homepage     = ""
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -84,7 +84,6 @@ s.homepage     = "http://raywenderlich.com"
   #
 
 	s.source       = { :git => "https://github.com/javidsheikh/QuaxoDecoder.git", :tag => "1.0.0" }
-	s.version      = "1.0.0"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
