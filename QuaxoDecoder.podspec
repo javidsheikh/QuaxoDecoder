@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -15,19 +15,21 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "QuaxoDecoder"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of QuaxoDecoder."
+  s.name         = "KnobControl"
+s.version      = "1.0.0"
+s.summary      = "A knob control like the UISlider, but in a circular form."
+s.description  = "The knob control is a completely customizable widget that can be used in any iOS app. It also plays a little victory fanfare."
+s.homepage     = "http://raywenderlich.com"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  # spec.description  = <<-DESC
+  #                  DESC
 
-  spec.homepage     = "http://EXAMPLE/QuaxoDecoder"
+  # spec.homepage     = "http://EXAMPLE/QuaxoDecoder"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +40,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
+  s.license      = "MIT"
+
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -64,7 +67,8 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  s.platform     = :ios, "12.0"
+
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -79,8 +83,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/javidsheikh/QuaxoDecoder.git", :tag => "#{spec.version}" }
-
+	s.source       = { :git => "URL", :tag => "1.0.0" }
+	s.version      = "1.0.0"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -90,8 +94,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  s.source_files  = "QuaxoDecoder"
 
   # spec.public_header_files = "Classes/**/*.h"
 
