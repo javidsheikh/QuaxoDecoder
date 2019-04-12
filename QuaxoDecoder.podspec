@@ -55,7 +55,7 @@ s.homepage     = ""
   #  profile URL.
   #
 
-  spec.author             = { "Javid Sheikh" => "javid@ingenie.com" }
+  s.author             = { "Javid Sheikh" => "javid@ingenie.com" }
   # Or just: spec.author    = "Javid Sheikh"
   # spec.authors            = { "Javid Sheikh" => "javid@ingenie.com" }
   # spec.social_media_url   = "https://twitter.com/Javid Sheikh"
