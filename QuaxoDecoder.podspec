@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "QuaxoDecoder"
-s.version      = "1.0.0"
-s.summary      = ""
-s.description  = ""
-s.homepage     = ""
+  s.version      = "1.0.0"
+  s.summary      = "Make http requests and instantly decode the JSON response into model objects."
+  s.description  = "Make request, decode JSON"
+  s.homepage     = "https://github.com/javidsheikh"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -135,5 +135,6 @@ s.homepage     = ""
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+  s.dependency "RxSwift"
 
 end
